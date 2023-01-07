@@ -1,152 +1,68 @@
-/* Body file set up */
-*{
+* {
     margin: 0;
     font-family: 'Heebo', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto Mono', monospace;
-}
-/* primary some content */
-.primary-btn{
-    font-size: 18px;
-    border: 0px;
-    border-radius: 5px;
-    padding: 20px 15px;
-     background: #41c2fd;
-}
-/* Bannner style */
-.banner{
-    height: 100vh;
-    display:flex;
-    justify-content: right;
-    align-items: center;
-    background-image: url("/images/banner/banner2.png");
-    background-repeat: no-repeat;
-}
-.banner-content{
-    width: 500px;
-   margin-right: 10%;
-   text-align: right;
-}
-.banner-content-title{
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-.banner-content-para{
-    color: #444343;
-    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
-/* ABout style  */
+/* primary button */
+.primary-btn {
+    background: rgb(121, 193, 255);
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Banner creation */
+
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url(/images/banner/banner2.png);
+    background-repeat: no-repeat;
+}
+
+.banner-info {
+    width: 500px;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.banner-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.banner-para {
+    margin-bottom: 30px;
+    color: #444343;
+}
+
+/* about something */
 .about-info{
     display: flex;
     align-items: center;
-    margin: 50px 200px 0 200px ;
-    gap: 50px;
-}
-
-.about-content-title{
-    margin: 80px 0 20px 0;
-    font-size: 30px;
-    font-weight: 700;
-}
-.about-content-para{
-    margin-bottom: 40px;
-    color: #444343;
-
-}
-
-.about-content-tips{
-    margin-bottom:10px;
-}
-.about-img{
-    margin-right: 5px;
-}
-
-/* plan style  */
-.plan{
-    margin: 100px 200px 0 200px;
-}
-.plan-title{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-}
-.plan-info{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    gap: 20px;
-}
-.plan-content{
+    justify-content:space-around;
     margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-.plan-content-title{
-    margin-top: 20px;
-    font-size: 25px;
-    font-weight: 700;
-}
-.plan-content-para{
-    margin-top: 10px;
-    color: #444343;
-}
-/* Maindset */
 
-.mainset{
-    margin: 80px 200px 0 200px;
-    background-image: url("/images/watch.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
+.about-content{
 }
-.mainset-content{
-    padding: 100px 0 0 60px;
-}
-.mainset-title{
-    color: #fff;
+.about-content-title{
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
-/* Footer contact */
-.contact{
-    background: #000;
-    color: #fff;
-}
-.contact-info{
-    padding-top: 130px;
-    padding-bottom: 130px;
-    margin:0 200px 0 200px;
-    display: flex;
-    justify-content: space-around;
-    gap: 300px;
-}
-.contact-future-title{
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-.contact-para{
-    font-size: 18px;
-    padding-bottom: 25px;
-}
-.contact-future-email{
-    margin-bottom: 20px;
-}
-.contact-future-number{
-    margin-bottom: 20px;
-}
-
-
-.contact-form-title{
-    font-size: 40px;
-    padding-bottom: 30px;
-}
-.sarch-btn{
-    border: 1px solid #444343;
-    border-radius: 5px;
+.about-content-para{
+    margin-bottom: 16px;
     color: #444343;
-    background: #000;
-    padding:10px;
-    margin-bottom: 19px;
+}
+.about-content-serial{
+    margin-bottom: 5px;
 }
